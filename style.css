@@ -1,0 +1,35 @@
+body{
+    margin: 150px 150px ;
+}
+.image{
+    margin: auto;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.microphone, .speaker{
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 200px;
+    font-size: 50px;
+}
+.show{
+    display: flex;
+}
+.text, .icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+#result {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+#recording {
+    color: green;
+}
